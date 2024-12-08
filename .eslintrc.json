@@ -23,7 +23,11 @@
     "eslint-comments/no-unused-disable": "error",
     "import/order": [
       "error",
-      { "newlines-between": "always", "alphabetize": { "order": "asc" } }
+      {
+        "newlines-between": "always",
+        "alphabetize": { "order": "asc" },
+        "groups": ["type", "builtin", "external", "parent", "sibling", "index"]
+      }
     ],
     "sort-imports": [
       "error",

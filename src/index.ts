@@ -1,1 +1,3 @@
-export * from './task';
+// main entry
+
+export { categoryTree } from './solution';

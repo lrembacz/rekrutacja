@@ -1,14 +1,6 @@
-import { INPUT } from "./input";
+import type { Category } from './types';
 
-export interface Category {
-  id: number;
-  name: string;
-  hasChildren: boolean;
-  url: string;
-  Title: string;
-  MetaTagDescription: string;
-  children: Category[];
-}
+import { INPUT } from './input';
 
 export const getCategories = async (): Promise<{ data: Category[] }> => ({
   data: INPUT,
