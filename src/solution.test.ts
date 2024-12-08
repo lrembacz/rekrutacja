@@ -1,3 +1,5 @@
+import type { CategoryListElement } from './types';
+
 import test from 'ava';
 
 import { CORRECT } from './correctResult';
@@ -8,7 +10,6 @@ import {
   extractOrder,
   shouldShowOnHomeScreen,
 } from './solution';
-import { CategoryListElement } from './types';
 
 // categoryTree
 
